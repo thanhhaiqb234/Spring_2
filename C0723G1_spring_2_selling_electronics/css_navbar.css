@@ -1,0 +1,33 @@
+.shopee-top--sticky .header-with-search.container {
+    width: inherit;
+    max-width: 1200px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+.header-with-search, .header-with-search__cart-wrapper, .header-with-search__logo-section {
+    box-sizing: border-box;
+}
+.header-with-search {
+    display: flex;
+    height: 5.3125rem;
+    justify-content: space-between;
+    padding: 1rem 0 0.625rem;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+ body, html {
+     font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+     color: rgba(0, 0, 0, 0.8);
+     line-height: 1.2;
+ }
+body {
+    font-size: .875rem;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
